@@ -1,0 +1,58 @@
+.form-container {
+    background-color: #0a9c5f;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-container h2{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #043802;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+#imgShadow{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-group label {
+    margin: 5px 0;
+}
+
+
+.checkboxheader{
+    font-size: 20px;
+}

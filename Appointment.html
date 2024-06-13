@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Gaia Klinik | für Gynäkologie u. Geburtshilfe</title>
+    
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <link href="css/mdb.min.css" rel="stylesheet"/>
+        <link href="css/bootstrap.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet" />
+        <!-- <link href="css/custom.css" rel="stylesheet" /> -->
+        <link href="css/appintment.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+         <!-- Navigation-->
+        <nav id="navBar"></nav>
+        <!-- Container Start-->
+        <div class="form-container">
+          <h2>Vaccine Appointment Form</h2>
+          <form id="appointment-form">
+              <div class="label-wrapper">
+                <label for="relation">Your relationship to the patient</label>
+                <abbr title="This field is required"></abbr>
+              </div>
+              <select id="relation" required="">
+                <option>Make your selection</option>
+                <option value="Parent">Parent</option>
+                <option value="Guardian">Guardian</option>
+                <option value="Spouse">Spouse</option>
+                <option value="Sibling">Sibling</option>
+                <option value="Relative">Relative</option>
+                <option value="Other">Other</option>
+              </select>
+
+              <label for="careGiverName">Your Name:</label>
+              <input type="text" id="patient-name" name="patientName" required>
+
+              <label for="patient-name">Patient Name:</label>
+              <input type="text" id="patient-name" name="patientName" required>
+  
+              <label for="address">Address:</label>
+              <textarea id="address" name="address" rows="3" required></textarea>
+  
+              <label for="contact">Contact:</label>
+              <input type="tel" id="contact" name="contact" required>
+  
+              <label for="hospital">Select Hospital:</label>
+              <select id="hospital" name="hospital" required>
+                  <!-- Hospital options will be populated dynamically -->
+              </select>
+              <label for="gender">Select Gender:</label>
+              <select id="gender" name="gender" required>
+                <option value="Boy">Boy</option>
+                <option value="Girl">Girl</option>
+              </select>
+  
+              <select id="vaccine" name="vaccine" required>
+                  <option value="HepB">HepB (Hepatitis B)</option>
+                  <option value="DTapTdap">DTap/Tdap (Diphtheria, tetanus, pertussis)</option>
+                  <option value="Hib">Hib (Heemophillus influenzee type b)</option>
+                  <option value="Polio">Polio</option>
+                  <option value="PCV">PCV (Pneumococcal conjugate)</option>
+                  <option value="RV">RV (Rotavirus)</option>
+                  <option value="MMR">MMR (Measles, mumps, rubella)</option>
+                  <option value="Varicella">Varicella (Chickenpox)</option>
+                  <option value="HepA">HepA (Hepatitis A)</option>
+                  <option value="HPV">HPV (Human Papillomavirus)</option>
+                  <option value="MCV4">MCV4 (Meningococcal Conjugate)</option>
+              </select>
+  
+              <label for="dose-number">Select Dose Number:</label>
+              <select id="dose-number" name="doseNumber" required>
+                  <option value="1">1st Dose</option>
+                  <option value="2">2nd Dose</option>
+                  <option value="3">3rd Dose</option>
+                  <option value="3">4th Dose</option>
+                  <option value="3">3th Dose</option>
+                  <option value="booster">Booster</option>
+              </select>
+  
+              <label for="appointment-slot">Available Slots:</label>
+              <select id="appointment-slot" name="appointmentSlot" required>
+                  <!-- Available slots will be populated dynamically -->
+              </select>
+  
+              <button type="submit">Apply for Appointment</button>
+          </form>
+      </div>
+        
+        <!-- Contact Section END-->
+        <!-- Footer Section START-->
+        <footer class="bg-dark has-box-shadow  py-3 ">
+          <div class="container px-4 px-lg-5">
+            <div class="row g-0 justify-content-center">
+              <div class="col-lg-3 col-md-12">
+                <div class="small text-center text-white">Copyright &copy; 2024 - Vaccination Project</div>
+              </div>
+              <div class="col-lg-3 col-md-12">
+                <div class="small text-center">
+                  <a class="impressum-a" href="#">(IUB)</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- Footer Section END-->
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- MDB -->
+        <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script> -->
+    </body>
+</html>
